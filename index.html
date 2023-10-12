@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>To-Do App</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=IBM+Plex+Sans+Thai:wght@300;600;700&family=Noto+Sans+KR:wght@500&family=Roboto:wght@300;500;900&family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+  <h1>Get That Sh*t Done!</h1>
+  <form novalidate>
+    <input type="text" id="todoInput" placeholder="Add a new todo">
+    <button type="button" onclick="addTodo()">Add</button>
+    <label for="prioritySelect">Priority:</label>
+    <select id="prioritySelect">
+      <option value="low">Low</option>
+      <option value="medium">Medium</option>
+      <option value="high">High</option>
+    </select>
+    <ul id="todoList"></ul>
+    <button onclick="clearList()">Clear List</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+*{
+    font-family: 'Young Serif', serif;
+  }
+  body{
+    text-align: center;
+  }
+  
+  li{
+    margin-bottom: 20px;
+  }
+  
+  
+  .delete-button {
+  
+    float: right;
+    margin-left: 5px;
+    background-color: #3498db; /* Button background color */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2); /* Apply the box shadow */
+    transition: box-shadow 0.3s; /* Add a smooth transition effect */
+    
+  }
+  
+  button:hover {
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.3); /* Adjust the shadow on hover */
+  }
+  
+  .complete-button {
+    
+    float: right;
+    background-color: #3498db; /* Button background color */
+    color: #fff; /* Text color */
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2); /* Apply the box shadow */
+    transition: box-shadow 0.3s; /* Add a smooth transition effect */
+  
+  }
+  
+  .completed {
+      text-decoration: line-through; /* Apply a line-through text decoration */
+      color: #888; /* You can change the color to gray or any other color you prefer */
+      /* Add any other styling you want for completed tasks */
+  }
